@@ -9,7 +9,7 @@ my $builder = Module::Build->new(
     dist_version_from   => 'lib/Object/Simple/Mixin/Meta.pm',
     build_requires => {
         'Test::More' => 0,
-        'Object::Simple' => 0.0203
+        'Object::Simple' => 2.0003
     },
     add_to_cleanup      => [ 'Object-Simple-Mixin-Meta-*' ],
     create_makefile_pl => 'traditional',

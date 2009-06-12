@@ -1,12 +1,8 @@
 package Object::Simple::Mixin::Meta;
-
-our $VERSION = '0.0101';
-
 use warnings;
 use strict;
 
-use base 'Exporter';
-our @EXPORT = qw/meta/;
+our $VERSION = '0.0102';
 
 # get attribute options
 sub meta {
@@ -21,7 +17,7 @@ Object::Simple::Mixin::Meta - Mixin to get Object::Simple meta information
 
 =head1 VERSION
 
-Version 0.0101
+Version 0.0102
 
 =cut
 
@@ -36,7 +32,7 @@ Version 0.0101
     sub title  : Attr { default => 1, read_only => 1 }
     sub author : Attr { default => 2, chained => 1 }
     
-    Object::Simple->end;
+    Object::Simple->build_class;
     
     ### using Book.pm
     use Book;
