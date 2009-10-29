@@ -2,7 +2,7 @@ package Object::Simple::Mixin::Meta;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 # get attribute options
 sub meta {
@@ -13,11 +13,17 @@ sub meta {
 
 =head1 NAME
 
-Object::Simple::Mixin::Meta - Mixin to get Object::Simple meta information
+Object::Simple::Mixin::Meta - Mixin to meta information [DISCOURAGED]
+
+=head1 CAUTION
+
+This module is discouraged now, because I feel meta information is not need for module author.
+
+I will not maintain this module.
 
 =head1 VERSION
 
-Version 0.0102
+Version 0.0103
 
 =cut
 

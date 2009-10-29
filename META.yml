@@ -1,9 +1,9 @@
 ---
 name: Object-Simple-Mixin-Meta
-version: 0.0102
+version: 0.0103
 author:
   - 'Yuki Kimoto <kimoto.yuki@gmail.com>'
-abstract: Mixin to get Object::Simple meta information
+abstract: 'Mixin to meta information [DISCOURAGED]'
 license: perl
 resources:
   license: ~
@@ -13,7 +13,7 @@ build_requires:
 provides:
   Object::Simple::Mixin::Meta:
     file: lib/Object/Simple/Mixin/Meta.pm
-    version: 0.0102
+    version: 0.0103
 generated_by: Module::Build version 0.31012
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
